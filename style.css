@@ -112,7 +112,8 @@ body {
   position: relative;
 }
 
-.container .card .right-side img {
+.container .card .right-side .img-content {
+  content: url(./images/image-header-desktop.jpg);
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -152,7 +153,8 @@ body {
   .container .card .right-side::before {
     border-radius: var(--border-radius-top-edge);
   }
-  .container .card .right-side img {
+  .container .card .right-side .img-content {
+    content: url(./images/image-header-mobile.jpg);
     border-radius: var(--border-radius-top-edge);
     object-fit: cover;
   }
