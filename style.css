@@ -47,16 +47,16 @@ body {
 }
 
 .container .card .left-side {
-  padding: 50px 80px 50px 50px;
+  padding: 50px 80px 45px 50px;
   font-family: var(--font-family-inter);
 }
 
-.container .card .left-side h1 {
+.container .card .left-side h2 {
   color: var(--white);
   font-size: 1.4rem;
 }
 
-.container .card .left-side h1 span {
+.container .card .left-side h2 span {
   color: var(--soft-violet);
   font-size: 1.4rem;
 }
@@ -123,7 +123,7 @@ body {
   position: absolute;
   content: '';
   left: 0;
-  right: 0;
+  top: 0;
   width: 100%;
   height: 100%;
   border-radius: var(--border-radius-right-edge);
